@@ -1,0 +1,5 @@
+1. c. PHP: Hypertext Preprocessor
+2. b. echo()
+3. a. $string = "Hello, World";
+4. b. strlen()
+5. b. is_int()
