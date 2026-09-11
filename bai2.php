@@ -20,7 +20,7 @@ if (kiemTraSoNguyenTo($so1)) {
     echo "$so1 không phải là số nguyên tố";
 }
 
-echo "<br>"; // xuống dòng, dùng "\n" nếu chạy CLI
+echo "<br>"; 
 
 // Test trường hợp 2: không phải số nguyên tố
 $so2 = 8;
