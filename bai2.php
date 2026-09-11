@@ -12,10 +12,21 @@ function kiemTraSoNguyenTo($n) {
     return true;
 }
 
-$so = 7;
-if (kiemTraSoNguyenTo($so)) {
-    echo "$so là số nguyên tố";
+// Test trường hợp 1: số nguyên tố
+$so1 = 7;
+if (kiemTraSoNguyenTo($so1)) {
+    echo "$so1 là số nguyên tố";
 } else {
-    echo "$so không phải là số nguyên tố";
+    echo "$so1 không phải là số nguyên tố";
+}
+
+echo "<br>"; // xuống dòng, dùng "\n" nếu chạy CLI
+
+// Test trường hợp 2: không phải số nguyên tố
+$so2 = 8;
+if (kiemTraSoNguyenTo($so2)) {
+    echo "$so2 là số nguyên tố";
+} else {
+    echo "$so2 không phải là số nguyên tố";
 }
 ?>
