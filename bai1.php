@@ -6,5 +6,5 @@ for ($i = 1; $i <= 10; $i++) {
         $ketQua[] = $i;
     }
 }
-echo "Các số chẵn từ 1 đến 10: " . implode(", ", $ketQua);
+echo "Các số chẵn từ 1 đến 10: " . implode("; ", $ketQua);
 ?>
